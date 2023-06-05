@@ -87,7 +87,6 @@ export default function WhatsApp() {
   return (
     <main className="h-screen w-full bg-gradient-to-b to-20% from-[#00a884] from-20% to-[#eae6df] p-5">
       <div className="flex w-full h-full bg-white">
-        {/* left side */}
         <div className="flex flex-col w-96 h-full border border-r-slate-300">
           <div className="flex justify-between items-center gap-4 h-16 px-4 py-2 bg-[#f0f2f5]">
             <div className="w-9 h-9 rounded-full bg-gray-500" />
@@ -253,7 +252,6 @@ export default function WhatsApp() {
             </div>
           </div>
         </div>
-        {/* right side */}
         {openChat === '' ? (
           <div className="flex flex-col flex-grow overflow-hidden justify-center gap-10 items-center border-b-4 border-[#4ada80] bg-[#f0f2f5]">
             <h2 className="text-5xl">Welcome to Green API Chat!</h2>

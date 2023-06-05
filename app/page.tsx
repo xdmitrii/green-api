@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main>
-      <h1>Here should be all available chats</h1>
+    <main className="flex justify-between items-center">
+      <h1 className="text-4xl text-semibold">Кто-то забыл добавить контент...</h1>
     </main>
   );
 }
